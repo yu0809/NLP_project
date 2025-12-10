@@ -1,0 +1,11 @@
+torch>=2.2.0
+transformers>=4.38.0
+datasets>=2.16.0
+evaluate>=0.4.1
+rouge-score>=0.1.2
+bert-score>=0.3.13
+tqdm>=4.66.0
+sentencepiece>=0.1.99
+accelerate>=0.24.0
+optuna>=3.0.0
+
