@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Model outputs and checkpoints
+outputs/
+checkpoints/
+*.ckpt
+*.safetensors
+*.bin
+
+# Data
+data/
+raw_data/
+*.jsonl
+# *.txt  # 注释掉，允许 requirements.txt
+*.csv
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Optuna
+*.db
+*.sqlite
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# HuggingFace cache (optional, can be kept)
+# .cache/
+
